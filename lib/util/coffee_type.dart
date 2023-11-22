@@ -17,7 +17,7 @@ class CoffeeType extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.only(left: 25.0),
+        padding: const EdgeInsets.only(left: 25.0, top: 15),
         child: Text(
           coffeeType,
           style: TextStyle(

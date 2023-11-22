@@ -135,17 +135,26 @@ class _HomePageState extends State<HomePage> {
                 CoffeeTile(
                   coffeeImagePath: 'lib/images/blackcoffee.png',
                   coffeeName: 'Black Coffee',
+                  coffeeSubName: 'With/Without Sugar',
                   coffeePrice: '\$4.00',
                 ),
                 CoffeeTile(
                   coffeeImagePath: 'lib/images/cappcino.png',
                   coffeeName: 'Cappcino',
+                  coffeeSubName: 'With Almond Milk',
                   coffeePrice: '\$5.00',
                 ),
                 CoffeeTile(
                   coffeeImagePath: 'lib/images/latte.png',
                   coffeeName: 'Latte',
+                  coffeeSubName: 'With optional flavors',
                   coffeePrice: '\$4.00',
+                ),
+                CoffeeTile(
+                  coffeeImagePath: 'lib/images/tea.png',
+                  coffeeName: 'Tea',
+                  coffeeSubName: 'With Cardemom',
+                  coffeePrice: '\$2.00',
                 ),
               ],
             ),
